@@ -1,5 +1,6 @@
 MAX = 100
 
+
 class Work:
     def __init__(self, name="McCat's Burger Flipper", rate=11, work_id=0, exp_req=0):
         self.name = name
