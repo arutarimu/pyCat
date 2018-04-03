@@ -1,19 +1,5 @@
 MAX = 100
 
-
-class Color:
-    PURPLE = '\033[95m'
-    CYAN = '\033[96m'
-    DARKCYAN = '\033[36m'
-    BLUE = '\033[94m'
-    GREEN = '\033[92m'
-    YELLOW = '\033[93m'
-    RED = '\033[91m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-    END = '\033[0m'
-
-
 class Work:
     def __init__(self, name="McCat's Burger Flipper", rate=11, work_id=0, exp_req=0):
         self.name = name
