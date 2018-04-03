@@ -1,1 +1,1 @@
-start /MAX cmd.exe /k "python C:\Users\dmaal\PycharmProjects\CatProject\pyCats\pyCats.py"
+start /MAX cmd.exe /k "python %cd%\pyCats.py"
